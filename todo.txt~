@@ -1,0 +1,27 @@
+todo: 
+
+Refactor the code to work with linrel.xml and see if that formats the info
+any better. who knows.
+
+**Idea: Have templates the user can choose from
+
+Temp 1: Kana and Romaji + defs, pos
+Temp 2: Kanji and Kana + defs, pos
+Temp 3: Kanji only + defs, pos
+
+2/19/15
+3 goals:
+xxMake linrel.xml work and see how it performs compared to wireframe.xml
+--Write the code that truncates text if it's too long, so it doesn't fuck up the results list
+--Do the wireframe for the "read more" function from longpressing results
+
+!--How to truncate the text--
+
+Well, first see if you can feasibly get the size of the string, multiply it by the size of the font, and boom you have the size of the text. 
+
+Subtract the text size from the max width
+
+if > 0, Divide the difference by size of font
+
+The quotient is the number of letters to remove. Round up.
+

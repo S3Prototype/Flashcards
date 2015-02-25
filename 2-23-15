@@ -1,0 +1,16 @@
+TODO TODAY:
+**Add the More Info panel functionality
+**Decide the purpose/design intent of the home screen
+**Draw the wireframe for the home screen
+
+Roadblocks:
+--Spending too much time making small changes with no ultimate purpose
+--Spending too much time googling because I don't know exactly how to implement this panel
+--Getting distracted/feeling tired
+
+==Idea: First design the xml for the dialogue box, then worry about the code to implement it.
+
+TOMORROW/Later:
+--Implement the home page
+--Decide intent/purpose of Deck info page
+--Design wireframe for deck info

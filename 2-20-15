@@ -1,0 +1,17 @@
+2/20/15 TODO
+
+**Decide how searching will logically work. Which information should be shown? What should be in the "read more" pane? What are the users specifically looking for? Can code be written to specifically show them different types of results based on their search query?
+**Come up with at least 3 different designs for the search result wireframe
+**Do the wireframe for the "read more" function from longpressing results
+
+**Expected Roadblocks**
+==Spending too long on each task will make it so I don't get enough done tonight
+==daydreaming or getting distracted will slow my progress
+==Not focusing on the logical conclusion of every design decision, and every customer goal, will make me make terrible design choices
+
+
+**Idea: Have templates the user can choose from
+
+Temp 1: Kana and Romaji + defs, pos
+Temp 2: Kanji and Kana + defs, pos
+Temp 3: Kanji only + defs, pos

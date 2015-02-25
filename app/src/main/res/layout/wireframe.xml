@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kanji"
+        android:text="高校"
+        android:textSize="@dimen/large_font"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_font"
+        android:id="@+id/pos"
+        android:text="n; suru"
+        android:paddingLeft="8dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/kanji"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kana"
+        android:text="こうこう"
+        android:textSize="@dimen/medium_font"
+        android:layout_below="@+id/pos"
+        android:paddingLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/english"
+        android:text="1: bright (esp. of the moon) 2: broad and empty "
+        android:textSize="@dimen/small_font"
+        android:paddingRight="10dp"
+        android:layout_alignTop="@+id/kanji"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button" />
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button" />
+</RelativeLayout>

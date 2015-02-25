@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="60dp"
+    android:background="#fff9ffed">
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_span="1"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/romaji"
+                android:text="koukou"
+                android:paddingLeft="5dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="9dp"
+                android:textSize="@dimen/medium_font"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kanji"
+                android:text="高校"
+                android:textSize="@dimen/small_font"
+                android:paddingLeft="5dp"
+                android:layout_alignBottom="@id/romaji"/>
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/english"
+            android:gravity="center_vertical"
+            android:text="1: bright (esp. of the moon) 2: broad and empty "
+            android:textSize="@dimen/small_font"
+           />
+
+    </TableRow>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:id="@+id/button"
+            android:layout_gravity="center_vertical" />
+
+</LinearLayout>

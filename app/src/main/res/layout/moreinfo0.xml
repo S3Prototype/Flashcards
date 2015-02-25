@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/infopanel"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="132dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Romaji"
+                android:id="@+id/romaji"
+                android:textSize="@dimen/large_font"
+                android:layout_marginTop="68dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Kanji"
+                android:id="@+id/kanji"
+                android:textSize="@dimen/large_font"
+                android:layout_below="@+id/romaji"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Kana"
+                android:id="@id/kana"
+                android:textSize="@dimen/large_font"
+                android:layout_below="@+id/kanji"
+                android:layout_centerHorizontal="true"/>
+            <TableLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/engTable"
+                android:layout_below="@id/kana"
+                android:layout_centerHorizontal="true">
+                <TableRow
+                    android:id="@+id/tableRow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/def0"
+                        android:textSize="@dimen/large_font"
+                        android:text="Filler Text"
+                        android:layout_centerHorizontal="true" />
+                </TableRow>
+                </TableLayout>
+
+            <TableLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/engTable"
+                android:id="@+id/extraTable"
+                android:layout_centerHorizontal="true">
+
+            </TableLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

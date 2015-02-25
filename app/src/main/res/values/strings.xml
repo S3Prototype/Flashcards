@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JapApp</string>
+    <string name="title_section1">Words</string>
+    <string name="title_section2">Kanji</string>
+    <string name="title_section3">Sentences</string>
+    <string name="hello_world">Search Results</string>
+    <string name="action_settings">Settings</string>
+    <string name="eng">English</string>
+    <string name="kana">Kana</string>
+    <string name="kanji">Kanji</string>
+    <string name="pos">POS</string>
+
+    <!--dialog strings-->
+    <string name="dialog_positive">Okay</string>
+    <string name="dialog_negative">No</string>
+</resources>
