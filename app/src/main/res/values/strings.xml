@@ -12,7 +12,9 @@
     <string name="kanji">Kanji</string>
     <string name="pos">POS</string>
 
-    <!--dialog strings-->
+    <!-- dialog strings -->
     <string name="dialog_positive">Okay</string>
     <string name="dialog_negative">No</string>
+    <string name="title_activity_main">MainActivity</string>
+
 </resources>
