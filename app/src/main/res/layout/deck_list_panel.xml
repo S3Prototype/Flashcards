@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="85dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/deckImage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/defaultImage"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deck Name Here"
+            android:id="@+id/deckName"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/deckImage"
+            android:layout_toEndOf="@+id/deckImage"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next Review"
+            android:id="@+id/nextReview"
+            android:layout_below="@+id/deckName"
+            android:layout_alignLeft="@+id/deckName"
+            android:layout_alignStart="@+id/deckName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Review"
+            android:id="@+id/LastReview"
+            android:layout_below="@+id/nextReview"
+            android:layout_alignLeft="@+id/nextReview"
+            android:layout_alignStart="@+id/nextReview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cards in Deck"
+            android:id="@+id/numCards"
+            android:layout_below="@+id/LastReview"
+            android:layout_alignLeft="@+id/LastReview"
+            android:layout_alignStart="@+id/LastReview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description Here"
+            android:id="@+id/deckDescription"
+            android:layout_alignTop="@+id/deckName"
+            android:layout_toRightOf="@+id/deckName"
+            android:layout_toEndOf="@+id/deckName"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/40/50"
+            android:id="@+id/nrVal"
+            android:layout_alignBottom="@+id/nextReview"
+            android:layout_alignLeft="@+id/deckDescription"
+            android:layout_alignStart="@+id/deckDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00/10/01"
+            android:id="@+id/lrVal"
+            android:layout_below="@+id/nrVal"
+            android:layout_alignLeft="@+id/nrVal"
+            android:layout_alignStart="@+id/nrVal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="345"
+            android:id="@+id/ncVal"
+            android:layout_alignBottom="@+id/deckImage"
+            android:layout_alignLeft="@+id/lrVal"
+            android:layout_alignStart="@+id/lrVal" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/defaultButton"
+            android:src="@drawable/on"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</TableRow>

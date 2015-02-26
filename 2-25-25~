@@ -1,6 +1,6 @@
 TODAY:
---Implement Test class for more info panel
---Implement the home page
+**Implement Test class for more info panel
+**Implement the home page
 --Decide intent/purpose of Deck info page
 --Design wireframe for deck info
 
@@ -9,3 +9,9 @@ TOMORROW:
 --Implement test class for deck info
 --Decide/intent purpose of card views (front/back)
 --Design 3 different wireframes for card views
+
+Steps to implement home page:
+
+--in getView, you have to change the view passed in to be whatever you're gonna do as the main view. Probably a relative layout. Use inflater, etc.
+
+--Look at the PlaceholderFragment class in the DeckListActivity. It shows you how to make the fragment draw what you want. You can use the code that works with the search result the same. Probably best to use a list view and list adapter. We'll see.
