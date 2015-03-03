@@ -144,6 +144,6 @@ public class DeckListActivity extends ActionBarActivity
             ((DeckListActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
-    }
+    }//PlaceHolderFragment
 
 }

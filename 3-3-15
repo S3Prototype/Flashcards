@@ -1,0 +1,11 @@
+TODAY:
+--Write the code that populates the home page with deck panels
+--Write the test class for the deck panels to populate it with fake info so you can test it better.
+--Design the Deck Info wireframe
+--Make the Deck Info layout file
+
+Steps to implement home page:
+
+--in getView, you have to change the view passed in to be whatever you're gonna do as the main view. Probably a relative layout. Use inflater, etc.
+
+--Look at the PlaceholderFragment class in the DeckListActivity. It shows you how to make the fragment draw what you want. You can use the code that works with the search result the same. Probably best to use a list view and list adapter. We'll see.

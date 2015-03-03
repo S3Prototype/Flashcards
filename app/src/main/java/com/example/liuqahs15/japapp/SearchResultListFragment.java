@@ -75,21 +75,6 @@ public class SearchResultListFragment extends ListFragment{
                 convertView = srInflater.inflate(R.layout.minimal, parent, false);
             }
 
-                //The following is proof that Java is 5 million times better than c++:
-          /*  String truncated = searchResult.getKana().substring(0, searchResult.getKana().length() - 2);
-            System.out.println("String: " + searchResult.getKana() + " | Len: " + searchResult.getKana().length() + " | Trunc: " + truncated);
-                //Fuck yes. It just works.
-
-            String finalKana = searchResult.getKana();
-
-            int max = 6;
-            int diff = max - finalKana.length();
-            if (diff < 0){
-                finalKana = finalKana.substring(0, finalKana.length() + diff);
-                finalKana += " ...";
-            }
-        */
-
             TextView tv = (TextView) convertView.findViewById(R.id.english);
             tv.setText(searchResult.getEnglish());
 
